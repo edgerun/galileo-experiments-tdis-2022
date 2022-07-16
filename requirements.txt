@@ -1,0 +1,7 @@
+edgerun-galileo-experiments-extensions==0.0.1.dev7
+galileo-jupyter==0.0.2.dev4
+
+edgerun-skippy-core==0.1.1
+edgerun-faas==0.0.1.dev2
+edgerun-galileo-faas==0.0.1.dev4
+SQLAlchemy==1.4.39
