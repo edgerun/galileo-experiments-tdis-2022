@@ -1,4 +1,4 @@
-edgerun-galileo-experiments-extensions==0.0.1.dev8
+edgerun-galileo-experiments-extensions==0.0.1.dev10
 galileo-jupyter==0.0.2.dev6
 
 edgerun-skippy-core==0.1.1
