@@ -17,11 +17,11 @@ def main():
 
     creator = 'edgerun'
     host = sys.argv[1]
+    zone = sys.argv[2]
+
     image = 'edgerun/mobilenet-inference:1.0.0'
-    # IoT-Box
-    zone = 'zone-b'
     master_node = 'eb-k3s-master'
-    lb_ip = '192.168.0.101'
+
 
 
 
@@ -57,8 +57,7 @@ def main():
         no_pods=1,
         n=100,
         ia=1,
-        n_clients=1,
-        lb_ip=lb_ip
+        n_clients=1
     )
     run_profiling_workload(workload_config)
 
