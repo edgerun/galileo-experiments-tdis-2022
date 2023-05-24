@@ -241,7 +241,7 @@ def main():
     for pod in fn_pods:
         node = pod.spec.node_name
         pod_map[pod.metadata.labels[zone_label]][node].append(pod.metadata.name)
-        pass
+
 
     start = time.time()
 
