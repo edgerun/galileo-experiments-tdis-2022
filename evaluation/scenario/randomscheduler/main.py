@@ -234,7 +234,7 @@ def main():
 
     fn_pods = fetch_pods(function_label, fn_label)
     while len(fn_pods) != initial_pod_count:
-        logger.info(f'no function pods "{fn_label}" found. sleep 3 seconds...')
+        logger.info(f'no function pods "{fn_label}" found. sleep 5 seconds...')
         time.sleep(5)
         fn_pods = fetch_pods(function_label, fn_label)
 
